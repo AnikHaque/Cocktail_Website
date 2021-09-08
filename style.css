@@ -1,0 +1,50 @@
+html {
+        scroll-behavior: smooth;
+}
+
+.drinks:hover {
+        cursor: pointer;
+        color: orangered;
+        border: 2px solid orangered
+}
+
+.spin {
+        display: none;
+        height: 12rem;
+        width: 20rem;
+}
+
+.main-section {
+        margin-top: 8%;
+}
+
+.menu-item:hover {
+        color: orangered;
+        transform: scale(1.1);
+}
+
+.menu-item:active {
+        transform: scale(.8);
+}
+
+footer {
+        margin-top: 320px;
+}
+
+@media screen and (min-width: 750px) {
+        #search-section {
+                width: 40%;
+        }
+}
+
+@media screen and (max-width: 385px) {
+        .main-section {
+                margin-top: 35%;
+        }
+}
+
+@media screen and (min-width: 385px) and (max-width: 1200px) {
+        .main-section {
+                margin-top: 15%;
+        }
+}
